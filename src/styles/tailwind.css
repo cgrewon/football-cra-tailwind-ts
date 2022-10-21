@@ -1,0 +1,36 @@
+@tailwind base;
+
+/* Your own custom base styles */
+
+/* Start purging... */
+@tailwind components;
+/* Stop purging. */
+
+/* Your own custom component styles */
+
+/* Start purging... */
+@tailwind utilities;
+/* Stop purging. */
+
+/* Your own custom utilities */
+
+body{
+    background: #020a0f !important;
+    font-family: 'Roboto';
+    color: white !important;
+}
+
+h1, h2, h3, h4, h5, button {
+    font-family: 'Roboto-Bold';
+}
+
+button {
+    height: 40px;
+}
+
+div, span, p {
+    font-size: 15px;
+}
+
+
+
